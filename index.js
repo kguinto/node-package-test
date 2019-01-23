@@ -1,3 +1,3 @@
 module.exports = {
-  add: (a, b) => a + b
+  default: (a, b) => a + b
 };
