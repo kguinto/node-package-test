@@ -5,9 +5,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-// import React from 'react';
-// const Button = props => <button>I'm a button!</button>;
-var Button = function Button() {};
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Button = function Button(props) {
+  return _react.default.createElement("button", null, "I'm a button!");
+};
 
 var _default = Button;
 exports.default = _default;
