@@ -1,3 +1,5 @@
+const Button = require('./components/Button').default;
+
 module.exports = {
-  default: (a, b) => a + b
+  default: Button
 };
